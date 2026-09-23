@@ -1,0 +1,134 @@
+{
+  "session_id": "2026-09-23-efc",
+  "timestamp": "2026-09-23T14:40:00-04:00",
+  "author": "Haley Bird (Fishers, IN) / autonomous Grok research agent",
+  "class": "Exchangeability-Failure Class (EFC)",
+  "tools_used": [
+    {
+      "tool": "extended_reasoning",
+      "type": "native",
+      "input_summary": "User request for genuine structural gaps across space, earth, ocean, animals, humans, land; archive-aware novelty protocol.",
+      "output_summary": "Classified as research-not-build. Novelty must be residual after ~21 prior archive classes.",
+      "chained_from": null
+    },
+    {
+      "tool": "web_search",
+      "type": "native",
+      "input_summary": "2025-2026 primary-source knowledge gaps: ocean carbon, dark oxygen, Hubble tension, 3I/ATLAS, Asgard, seafloor coverage, magnetoreception, consciousness, biomass.",
+      "output_summary": "Locked Cordiner Nature 22 Jun 2026 (3I/ATLAS D/H 15σ); Appler Nature 18 Feb 2026 (oxic Heimdallarchaeia); Bell 2025 (0.001% / 3-country bias); IOC-R 23 Feb 2026 (10-20% carbon-model divergence).",
+      "chained_from": "extended_reasoning"
+    },
+    {
+      "tool": "x_keyword_search",
+      "type": "native",
+      "input_summary": "dark oxygen, Hubble tension, 3I/ATLAS, deep biosphere, magnetoreception; NASA/Nature accounts.",
+      "output_summary": "Keyword oxygen stream was political noise. NASA 3I/ATLAS posts confirm natural comet, high nickel, multi-asset campaign.",
+      "chained_from": "web_search"
+    },
+    {
+      "tool": "x_semantic_search",
+      "type": "native",
+      "input_summary": "Unsolved ocean/space/biology gaps researchers call neglected.",
+      "output_summary": "Deep-ocean undersampling and microbial dark matter are spoken. 52 Hz whale / sound-only species noted. Not used as primary (undersampling already claimed).",
+      "chained_from": "x_keyword_search"
+    },
+    {
+      "tool": "browse_page",
+      "type": "native",
+      "input_summary": "IOC-R ocean carbon report page.",
+      "output_summary": "25% of anthropogenic CO2; 10-20% model divergence; five focus areas including land-ocean-ice continuum.",
+      "chained_from": "web_search"
+    },
+    {
+      "tool": "document_ingestion",
+      "type": "native",
+      "input_summary": "Workspace files plus Notion Discovery Archives and GitHub class repos.",
+      "output_summary": "No user uploads. Archive holds 21 prior classes through CMC/TPC 2026-09-20. Exchangeability unclaimed. Parent page 397ed6aa-f8ff-424e-bcb1-51edee916f90.",
+      "chained_from": "web_search"
+    },
+    {
+      "tool": "notion___notion-search",
+      "type": "native",
+      "input_summary": "Prior discovery-class pages and parent archive.",
+      "output_summary": "Located UPRC, CIC, JAC, CMC, CIP, TPC, FCC, OAC, FAC, NCR, TAC and parent Discovery Archives.",
+      "chained_from": "document_ingestion"
+    },
+    {
+      "tool": "notion___notion-fetch",
+      "type": "native",
+      "input_summary": "UPRC, CIC, JAC, CMC full pages.",
+      "output_summary": "Exact reclaim lists and falsifiers ingested so this session could not re-issue them.",
+      "chained_from": "notion___notion-search"
+    },
+    {
+      "tool": "github___get_me",
+      "type": "native",
+      "input_summary": "Authenticated user.",
+      "output_summary": "login sENZ5hFx, Haley Bird, Fishers IN.",
+      "chained_from": "document_ingestion"
+    },
+    {
+      "tool": "github___search_repositories",
+      "type": "native",
+      "input_summary": "user:sENZ5hFx class 2026 repos.",
+      "output_summary": "Last discovery-class repo 2026-09-20 CMC and TPC. CIP 2026-09-17. No 09-21/09-22 class repo. Code search: exchangeability unclaimed.",
+      "chained_from": "github___get_me"
+    },
+    {
+      "tool": "code_execution:efc_engine.py",
+      "type": "self_built",
+      "input_summary": "16 sourced candidates with archive-aware reclaim/frame taxes.",
+      "output_summary": "Leader iso-3i-atlas 89.22; ablation still 3I; larynx 0; five attacks survived; Spearman 0.93 among eligible.",
+      "chained_from": "document_ingestion"
+    },
+    {
+      "tool": "code_execution:efc_discriminator.py",
+      "type": "self_built",
+      "input_summary": "Eight eligible remainders from the ranker.",
+      "output_summary": "Pre-registered G_target draws, kill and confirm conditions, do-not-claim lines.",
+      "chained_from": "code_execution:efc_engine.py"
+    },
+    {
+      "tool": "imagine_text_to_image",
+      "type": "native",
+      "input_summary": "Two ice chemistries split by a calibration membrane; no text.",
+      "output_summary": "16:9 still at artifacts/imagine_images/511c5e6c-0403-416f-8642-40f7fc02736c.jpg",
+      "chained_from": "code_execution:efc_engine.py"
+    },
+    {
+      "tool": "imagine_image_to_video",
+      "type": "native",
+      "input_summary": "6s push from sunlit provincial comet through the membrane into the ancient icescape.",
+      "output_summary": "6.0s mp4 at artifacts/imagine_videos/492c3cff-09a4-47be-93cf-2edf38a9b9eb.mp4",
+      "chained_from": "imagine_text_to_image"
+    }
+  ],
+  "functions_built": [
+    {
+      "name": "efc_score",
+      "purpose": "Archive-aware heuristic for remaining exchangeability-failure surface after reclaim/frame taxes.",
+      "times_invoked": 16,
+      "final_output": "Leader iso-3i-atlas 89.2153; 8 eligible; 8 zeroed/control; larynx 0 so class not void."
+    },
+    {
+      "name": "more_n_closes",
+      "purpose": "Kill-switch: if more samples from G_cal would close the gap, the row is not EFC.",
+      "times_invoked": 16,
+      "final_output": "more_n_closes(3I/ATLAS, G_cal)=False; more_n_closes(3I/ATLAS, G_target)=True (4th ISO discriminator)."
+    },
+    {
+      "name": "iterate_after_adversary",
+      "purpose": "Five attacks (undersampling-of-ISOs, Dark Biosphere reclaim, dive-fraction reclaim, recency ablation, larynx control).",
+      "times_invoked": 1,
+      "final_output": "All five survived. Ablation leader remains iso-3i-atlas. Class not void."
+    },
+    {
+      "name": "generator_split_discriminator",
+      "purpose": "Name the G_target draw that would retire each eligible EFC instance, with kill/confirm/do-not-claim.",
+      "times_invoked": 8,
+      "final_output": "Primary discriminator: 4th ISO with JWST-grade D/H and carbon isotopes."
+    }
+  ],
+  "primary_insight": "Science treats the calibration sample as exchangeable with the unobserved remainder. When the remainder is generated by a different process, more n on the calibration generator cannot identify the target. The cleanest 2026 generator split no prior archive class owns is 3I/ATLAS: water D/H 15σ above the Solar System comet mean (Cordiner et al., Nature, 22 Jun 2026).",
+  "capability_gap_identified": "No existing tool certifies, against the local archive of already-claimed structural classes, whether a scientific unknown is a missing place, missing converter, unjoined ledger, truncated coefficient, monopolized channel, coupling mismatch, or a calibration sample generated by the wrong process — i.e. whether more n from G_cal is in principle incapable of identifying G_target."
+}

@@ -1,0 +1,31 @@
+EFC ranking  2026-09-23T14:40:00-04:00  2026-09-23-efc
+Leader: iso-3i-atlas  score=89.2153
+Ablation leader: iso-3i-atlas  score=71.7239
+Class void: False  larynx=0.0
+Spearman(more_n_invariance, score) among eligible: 0.9285714285714286
+
+ rk    score realm    id                     verdict
+------------------------------------------------------------------------------------------------------------
+  1   89.215 space    iso-3i-atlas           ELIGIBLE — no archive overlap
+  2   53.482 life     asgard-oxic            ELIGIBLE remainder after Deep-biosphere-as-space-prior / Dark Biosphere (existence of Asgards)
+  3   27.000 ocean    dive-geography         ELIGIBLE remainder after Undersampling (WHERE we look)
+  4   26.761 land     shale-fungi            ELIGIBLE remainder after Dark Biosphere (existence of deep life)
+  5   26.027 space    hwo-template           ELIGIBLE remainder after CIP (coupling) / NASA gap list (spoken as false-positive inventory)
+  6   24.657 space    tno-small-end          ELIGIBLE remainder after Undersampling (faint end)
+  7   18.643 ocean    ocean-carbon-interface ELIGIBLE remainder after Undersampling + JAC (land-ocean continuum)
+  8    8.559 humans   human-cry              ELIGIBLE remainder after TAC (receptor) / CMC (pigeon vestibular)
+  9    0.000 humans   consciousness          ZEROED (Spoken / FAC Cogitate)
+ 10    0.000 space    dark-matter            ZEROED (TAC / CIP / spoken)
+ 11    0.000 ocean    gorg-ferh              ZEROED (CIP 2026-09-17)
+ 12    0.000 space    hubble                 ZEROED (FAC / CIC two-clock / spoken)
+ 13    0.000 humans   larynx                 CONTROL — must stay 0 or class is void
+ 14    0.000 animals  pigeon-cmc             ZEROED (CMC 2026-09-20)
+ 15    0.000 ocean    seafloor-n             ZEROED (Undersampling)
+ 16    0.000 ocean    sweetman               ZEROED (FAC / TAC / UPRC do-not-load-bear)
+
+SURVIVE Attack1: more_n_closes(G_cal)=False. Undersampling of ISOs is real and is the discriminator (4th ISO). EFC remainder is template-lock of G_cal. Cordiner 15σ vs SS mean is a generator split, not an empty cell.
+SURVIVE Attack2: existence of Asgards is prior IP. Remainder is that the anoxic catalogue was the wrong generator; expanding generators changed the eukaryogenesis template. Ancestor-was-aerobic remains UNPROVED.
+SURVIVE Attack3: coverage fraction zeroed as undersampling. Remainder is non-exchangeability of the filled cells (3-country EEZ generator). ODL's stratified 10,000-site plan is a tacit EFC admission.
+SURVIVE Attack4: recency ablation leaves leader=iso-3i-atlas.
+SURVIVE Attack5: larynx control = 0.
+CITATION LOCK: Cordiner reports D/H=(0.98±0.06)% = 15σ above SS comet mean 0.029%. This engine does not re-derive σ_SS. Do not quote a homemade sigma.
